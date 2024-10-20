@@ -1,0 +1,54 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Aligns content vertically */
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px; /* Space between heading and video */
+}
+
+pre {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+    color: #555;
+    white-space: pre-wrap;
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px; /* Space between text and video */
+}
+
+strong {
+    color: #FF5733; /* Bright orange color for emphasis */
+}
+
+/* Styling the 42 light years span */
+.highlight {
+    color: #3A5FCD; /* Medium dark blue color for 42 light years */
+    font-weight: bold;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+    border: 5px solid #ccc;
+    border-radius: 10px;
+    width: 600px;
+    height: 400px;
+}
+
+/* Add a hover effect to the video */
+video:hover {
+    border-color: #FF5733; /* Matches the color of the strong text */
+}

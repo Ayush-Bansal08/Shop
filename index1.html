@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OnlyShop Popup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <img src="/imgshop.png">
+    </header>
+
+    <div class="form-container">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+
+      <form>
+        <label><input type="radio" name="gender" value="male"> Male</label>
+        <label><input type="radio" name="gender" value="female"> Female</label>
+      </form>
+    </div>
+
+    <!-- Popup Section -->
+    <div class="popup" onclick="togglePopup()">
+        <button class="proceed-btn">Proceed</button>
+        <div class="popuptext" id="myPopup">
+          
+          <p>Are you :--></p>
+          <label>
+            <input type="radio" name="status" value="single"> Single<img src="https://img.freepik.com/premium-vector/top-quality-emoticon-single-emoji-icon-fun-icon-enigmatic-smile-emoji-icon-emoticon_686498-2677.jpg" height="30" width="30">
+          </label>
+          <br>
+          <br>
+          <label>
+            <input type="radio" name="status" value="mingle"> Mingle<img src="https://www.shutterstock.com/image-vector/sneaky-emoticon-600nw-377763472.jpg" height="30" width="30">
+          </label>
+          <br>
+        </form>
+        <div class="popup" onclick="togglePopup()">
+           <a href="/ecommerce.html"> <button class="proceed-btn">Proceed</button></a>
+            <div class="popuptext" id="myPopup">
+      </div>
+    
+        </div>
+      </div>
+   
+      </div>
+    </div>
+
+    <footer>
+      <p>© 2024 OnlyShop. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script>
+    function togglePopup() {
+      var popup = document.getElementById("myPopup");
+      popup.classList.toggle("show");
+    }
+  </script>
+
+</body>
+</html>

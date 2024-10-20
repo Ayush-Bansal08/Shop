@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Details</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 40px;
+      }
+
+      .product-details {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+
+      .product-image {
+        flex: 1;
+        max-width: 600px;
+      }
+
+      .product-image img {
+        width: 100%;
+        height: 400px;
+        object-fit: contain;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .product-video {
+        flex: 1;
+        max-width: 600px;
+      }
+
+      .product-video video {
+        width: 100%;
+        height: 400px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .description {
+        margin-top: 30px;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .description h2 {
+        margin-bottom: 10px;
+      }
+
+      .btn-container {
+        margin-top: 20px;
+      }
+
+      .btn {
+        background-color: #ff523b;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .btn:hover {
+        background-color: #563434;
+      }
+
+      .btn-flex {
+        display: flex;
+        flex-direction: row;
+      }
+      .btn-2 {
+        margin-left: 50px;
+      }
+
+      header {
+        background: linear-gradient(135deg, #8be2f4, #8be2f4);
+        padding: 20px;
+        border-bottom: 1px solid #ddd;
+        text-align: center;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="product-details">
+        <div class="product-image">
+          <img id="productImage" src="" alt="Product Image" />
+        </div>
+        <div class="product-video">
+          <video id="productVideo" controls autoplay playsinline>
+            <source src="" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+      <div class="description">
+        <h2 id="productName">Product Name</h2>
+        <p id="productDescription">This is the product description.</p>
+      </div>
+      <div class="btn-flex">
+        <div class="btn-container">
+          <button class="btn" onclick="goBack()">Back to Products</button>
+        </div>
+        <div class="btn-container btn-2">
+          <a href="/payment.html"><button class="btn">Add to Cart</button></a>
+        </div>
+      </div>
+    </div>
+
+    <script src="product.js"></script>
+  </body>
+</html>

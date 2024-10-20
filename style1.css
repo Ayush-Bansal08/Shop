@@ -1,0 +1,152 @@
+/* Reset body margin/padding and ensure it covers full height */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+    background-color: #e0f7fa;
+}
+
+/* Flexbox layout to ensure footer stays at bottom */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+/* Container styling */
+.container {
+    width: 100%;
+    max-width: 600px;
+    background-color: #beecf2;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    margin: 12px auto; /* Centers container horizontally */
+    min-height: 400px; /* Ensures the container takes up space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Logo */
+.logo {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+/* Payment Methods */
+.payment-methods h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.payment-methods label {
+    display: block;
+    margin: 15px 0;
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    cursor: pointer;
+}
+
+.payment-methods input[type="radio"] {
+    margin-right: 10px;
+}
+
+.payment-methods input[type="text"], 
+.payment-methods input[type="number"] {
+    width: calc(100% - 22px);
+    padding: 12px;
+    
+    border-radius: 5px;
+    border: 1px solid #0f0808;
+    transition: border-color 0.3s ease;
+}
+
+.payment-methods input[type="text"]:focus, 
+.payment-methods input[type="number"]:focus {
+    border-color: #00a7e1;
+    outline: none;
+}
+
+/* Button */
+.payment-methods button {
+    background-color: #00a7e1;
+    color: ;
+    padding: 12px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.payment-methods button:hover {
+    background-color: #563434;
+    transform: translateY(-3px);
+}
+
+/* Footer */
+footer {
+    background-color: #012a4a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.1);
+}
+
+footer pre {
+    white-space: pre-wrap;
+    font-size: 14px;
+    line-height: 1;
+    color: #ddd;
+    margin: 0;
+    text-align: left;
+}
+
+footer a {
+    color: #00a7e1;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    .payment-methods h1 {
+        font-size: 20px;
+    }
+
+    .payment-methods label {
+        font-size: 14px;
+    }
+
+    .payment-methods button {
+        font-size: 14px;
+        padding: 10px 0;
+    }
+
+    footer pre {
+        font-size: 12px;
+    }
+}
