@@ -1,54 +1,65 @@
 /* Global styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color:  #b5dfe7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; /* Aligns content vertically */
-    height: 100vh;
-    margin: 0;
-    padding: 20px;
-    text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #b5dfe7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Aligns content vertically */
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
 }
 
 h1 {
-    font-size: 24px;
-    color: #1f51dd;
-    margin-bottom: 20px; /* Space between heading and video */
+  font-size: 24px;
+  color: #1f51dd;
+  margin-bottom: 20px; /* Space between heading and video */
 }
 
 pre {
-    font-family: "Courier New", Courier, monospace;
-    font-size: 18px;
-    color: #389ed5;
-    white-space: pre-wrap;
-    background-color: #d1ecf1;
-    padding: 20px;
-    border-radius: 10px;
-    margin-bottom: 30px; /* Space between text and video */
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+  color: #389ed5;
+  white-space: pre-wrap;
+  background-color: #d1ecf1;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px; /* Space between text and video */
 }
 
 strong {
-    color: #FF5733; /* Bright orange color for emphasis */
+  color: #ff5733; /* Bright orange color for emphasis */
 }
 
 /* Styling the 42 light years span */
 .highlight {
-    color: #3A5FCD; /* Medium dark blue color for 42 light years */
-    font-weight: bold;
+  color: #3a5fcd; /* Medium dark blue color for 42 light years */
+  font-weight: bold;
 }
 
 video {
-    display: block;
-    margin: 0 auto;
-    border: 5px solid #ccc;
-    border-radius: 10px;
-    width: 600px;
-    height: 400px;
+  display: block;
+  margin: 0 auto;
+  border: 5px solid #ccc;
+  border-radius: 10px;
+  width: 600px;
+  height: 400px;
 }
 
 /* Add a hover effect to the video */
 video:hover {
-    border-color: #FF5733; /* Matches the color of the strong text */
+  border-color: #ff5733; /* Matches the color of the strong text */
+}
+
+.btn {
+  background-color: #345be5;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: -80px;
+  margin-top: 20px;
 }
