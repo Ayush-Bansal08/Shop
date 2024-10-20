@@ -1,9 +1,9 @@
 const products = [
-    { name: 'Banana', path: 'Images/banana.png', price: '$10', memes: [{ text: 'Meme 1', audioPathh: './audio/meme1.mp4' }] },
-    { name: 'Cucumber', path: 'Images/cucumber.png', price: '$15', memes: [{ text: 'Meme 2', audioPathh: './audio/meme2.mp4' }] },
-    { name: 'Danda', path: 'Images/danda.jpg', price: '$8', memes: [{ text: 'Meme 3', audioPathh: './audio/meme3.mp4' }] },
-    { name: 'Eggplant', path: 'Images/eggplant.png', price: '$12', memes: [{ text: 'Meme 4', audioPathh: './audio/meme4.mp4' }] },
-    { name: 'Hairband', path: 'Images/hairband.png', price: '$6', memes: [{ text: 'Meme 5', audioPathh: './audio/meme5.mp4' }] }
+    { name: 'Banana', path: './Images/banana.png', price: '$10', memes: [{ text: 'Meme 1', audioPathh: './audio/meme1.mp4' }] },
+    { name: 'Cucumber', path: './Images/cucumber.png', price: '$15', memes: [{ text: 'Meme 2', audioPathh: './audio/meme2.mp4' }] },
+    { name: 'Danda', path: './Images/danda.jpg', price: '$8', memes: [{ text: 'Meme 3', audioPathh: './audio/meme3.mp4' }] },
+    { name: 'Eggplant', path: './Images/eggplant.png', price: '$12', memes: [{ text: 'Meme 4', audioPathh: './audio/meme4.mp4' }] },
+    { name: 'Hairband', path: './Images/hairband.png', price: '$6', memes: [{ text: 'Meme 5', audioPathh: './audio/meme5.mp4' }] }
 ];
 
 function createCard(product) {
