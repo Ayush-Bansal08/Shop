@@ -1,7 +1,7 @@
 /* Global styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color:  #b5dfe7;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,16 +14,16 @@ body {
 
 h1 {
     font-size: 24px;
-    color: #333;
+    color: #1f51dd;
     margin-bottom: 20px; /* Space between heading and video */
 }
 
 pre {
     font-family: "Courier New", Courier, monospace;
     font-size: 18px;
-    color: #555;
+    color: #389ed5;
     white-space: pre-wrap;
-    background-color: #e0e0e0;
+    background-color: #d1ecf1;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 30px; /* Space between text and video */
