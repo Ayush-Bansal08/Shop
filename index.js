@@ -3,7 +3,7 @@ const products = [
         name: 'Louis Vuitton Bag',
         path: './Images/Luivitton.png.jpg',
         price: '$2500',
-        memes: [{ text: 'Great for showing off your style or for hiding all your dirty little secrets!', audioPathh: './audio/AukatMeRahoMeme.mp4' }]
+        memes: [{ text: 'Great for showing off your style or for hiding all your little secrets!', audioPathh: './audio/AukatMeRahoMeme.mp4' }]
     },
     {
         name: 'Air Jordan',
