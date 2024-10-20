@@ -19,7 +19,7 @@ const products = [
     },  
     {
         name: 'Hairband',
-        path: './Images/hairband.png',
+        path: './Images/Hairband.png',
         price: '$89',
         memes: [{ text: 'Great for keeping your hair in place or for holding on tight when things get messy!', audioPathh: './audio/miniskirt.mp4' }]
     },
@@ -61,19 +61,19 @@ const products = [
     // },
     {
         name: 'Heart Cushion',
-        path: './Images/heartCushion.png',
+        path: './Images/HeartCushion.png',
         price: '$38',
         memes: [{ text: 'Perfect for a cozy embrace or for getting a little too close during those late-night chats!', audioPathh: './audio/purse.mp4' }]
     },
     {
         name: 'Lounge Chair',
-        path: './Images/lauger.png',
+        path: './Images/Lauger.png',
         price: '$249',
         memes: [{ text: 'Great for kicking back and relaxing... or for getting cozy when things heat up!', audioPathh: './audio/last.mp4' }]
     },
     {
         name: 'Mast Melon',
-        path: './Images/melon.png',
+        path: './Images/Melon.png',
         price: '$19',
         memes: [{ text: 'Juicy!', audioPathh: './audio/melon1,2.mp4' }]
     },
@@ -91,7 +91,7 @@ const products = [
     },
     {
         name: 'Teddy',
-        path: './Images/teddy.png',
+        path: './Images/Teddy.png',
         price: '$85',
         memes: [{ text: 'Always down for a cuddle,No questions asked', audioPathh: './audio/teddy.mp4' }]
     },
@@ -116,7 +116,7 @@ const products = [
     
     {
         name: 'MacBook M2',
-        path: './Images/Macbook.jpg',
+        path: './Images/MacBook.jpg',
         price: '$1299',
         memes: [{ text: 'Handles more tabs than you can, and still never slows down!', audioPathh: './audio/AukatMeRahoMeme.mp4' }]
     },
