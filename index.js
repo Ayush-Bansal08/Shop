@@ -116,7 +116,7 @@ const products = [
     
     {
         name: 'MacBook M2',
-        path: 'Images/Macbook.png.jpg',
+        path: 'Images/Macbook.jpg',
         price: '$1299',
         memes: [{ text: 'Handles more tabs than you can, and still never slows down!', audioPathh: './audio/AukatMeRahoMeme.mp4' }]
     },
